@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: 'Inter';
+		font-style: regular;
+		font-weight: 400;
+		font-display: swap;
+		src: url(/assets/fonts/static/Inter-Regular.ttf) format('wttf');
+	}
+	@font-face {
+		font-family: 'Inter';
+		font-style: semibold;
+		font-weight: 600;
+		font-display: swap;
+		src: url(/assets/fonts/static/Inter-SemiBold.ttf) format('wttf');
+	}
+	@font-face {
+		font-family: 'Inter';
+		font-style: bold;
+		font-weight: 700;
+		font-display: swap;
+		src: url(/assets/fonts/static/Inter-Bold.ttf) format('wttf');
+	}
+}
